@@ -1,0 +1,28 @@
+{
+  "name": "express-rest-admin",
+  "version": "0.3.0",
+  "description": "REST-ADMIN server-side based on Express@next and Mongoose",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "restful",
+    "rest-admin",
+    "mongodb"
+  ],
+  "author": "Johnny Wu <wu-xuesong@qq.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^3.0.2",
+    "express": "^5.0.0-alpha.7",
+    "express-http-context": "^1.2.0",
+    "inflection": "^1.12.0",
+    "jsonwebtoken": "^8.4.0",
+    "lodash": "^4.17.11"
+  },
+  "devDependencies": {
+    "mongoose": "^5.3.16"
+  }
+}
