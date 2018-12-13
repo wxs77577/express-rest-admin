@@ -1,6 +1,6 @@
 {
   "name": "express-rest-admin",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "REST-ADMIN server-side based on Express@next and Mongoose",
   "main": "index.js",
   "scripts": {
