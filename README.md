@@ -14,26 +14,26 @@ Use: `require('express-rest-admin')(options)`
 
 ```javascript
 {
-    secret: 'a random string', // used for jwt signing
-    auth: {
-      modelName: 'User', // which model to use for login
-      allowGuest: true, // allow guests access
-      username: 'username', // `username` field
-      password: 'password', // `password` field
-      where: {} // additional query
+  secret: 'a random string', // used for jwt signing
+  auth: {
+    modelName: 'User', // which model to use for login
+    allowGuest: true, // allow guests access
+    username: 'username', // `username` field
+    password: 'password', // `password` field
+    where: {} // additional query
+  },
+  site: {}, // rest admin site config
+  middleware: {
+    query: {
+      name: 'query' // req.query.query
     },
-    site: {}, // rest admin site config
-    middleware: {
-      query: {
-        name: 'query' // req.query.query
-      },
-      resource: {
-        name: 'resource' //req.params.resource
-      },
+    resource: {
+      name: 'resource' //req.params.resource
     },
-    router: {
-      prefix: '/' // restful apis prefix
-    },
-    controllers: {} // override default controllers
-  }
+  },
+  router: {
+    prefix: '/' // restful apis prefix
+  },
+  controllers: {} // override default controllers
+}
 ```
