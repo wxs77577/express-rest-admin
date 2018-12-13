@@ -12,7 +12,7 @@
 
 Use: `require('express-rest-admin')(options)`
 
-```json
+```javascript
 {
     secret: 'a random string', // used for jwt signing
     auth: {
