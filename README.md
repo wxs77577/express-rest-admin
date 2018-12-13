@@ -4,8 +4,7 @@
 ## Usage
 > Please make sure to follow the guide of [REST-ADMIN](https://github.com/wxs77577/rest-admin)
 1. Install: `npm i express-rest-admin`
-2. Use it in your Express project
-  `app.use('/admin/api', require('express-rest-admin')())`
+2. `app.use('/admin/api', require('express-rest-admin')())`
 3. Now you got all apis for REST-ADMIN.
 
 ## Options
